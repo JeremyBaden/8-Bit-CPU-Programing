@@ -1,0 +1,225 @@
+$date
+	Mon Jun 08 17:39:44 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb $end
+$var wire 8 ! out [7:0] $end
+$var wire 1 " halted $end
+$var reg 1 # clk $end
+$var reg 1 $ reset $end
+$scope module dut $end
+$var wire 1 # clk $end
+$var wire 1 $ reset $end
+$var wire 2 % rs [1:0] $end
+$var wire 2 & rd [1:0] $end
+$var wire 8 ' rB [7:0] $end
+$var wire 8 ( rA [7:0] $end
+$var wire 4 ) opcode [3:0] $end
+$var wire 8 * instruction [7:0] $end
+$var wire 8 + immediate [7:0] $end
+$var reg 1 " halted $end
+$var reg 8 , out [7:0] $end
+$var reg 8 - pc [7:0] $end
+$var reg 2 . rf_raddr_a [1:0] $end
+$var reg 2 / rf_raddr_b [1:0] $end
+$var reg 2 0 rf_waddr [1:0] $end
+$var reg 8 1 rf_wdata [7:0] $end
+$var reg 1 2 rf_we $end
+$scope module program $end
+$var wire 8 3 addr [7:0] $end
+$var reg 8 4 data [7:0] $end
+$upscope $end
+$scope module program2 $end
+$var wire 8 5 addr [7:0] $end
+$var reg 8 6 data [7:0] $end
+$upscope $end
+$scope module rf $end
+$var wire 1 # clk $end
+$var wire 2 7 raddr_a [1:0] $end
+$var wire 2 8 raddr_b [1:0] $end
+$var wire 8 9 rdata_a [7:0] $end
+$var wire 8 : rdata_b [7:0] $end
+$var wire 2 ; waddr [1:0] $end
+$var wire 8 < wdata [7:0] $end
+$var wire 1 2 we $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx <
+bx ;
+bx :
+bx 9
+bx 8
+bx 7
+bx 6
+bx 5
+bx 4
+bx 3
+x2
+bx 1
+bx 0
+bx /
+bx .
+bx -
+bx ,
+bx +
+bx *
+bx )
+bx (
+bx '
+bx &
+bx %
+1$
+0#
+x"
+bx !
+$end
+#5000
+b101010 1
+b101010 <
+b0 /
+b0 8
+b0 .
+b0 7
+b0 0
+b0 ;
+12
+b101010 +
+b101010 6
+b0 %
+b0 &
+b1 )
+b1 5
+b10000 *
+b10000 4
+0"
+b0 !
+b0 ,
+b0 -
+b0 3
+1#
+#10000
+0#
+0$
+#15000
+b1 .
+b1 7
+b1 0
+b1 ;
+b1101 +
+b1101 6
+b1 &
+b11 5
+b10100 *
+b10100 4
+b1101 1
+b1101 <
+12
+b10 -
+b10 3
+bx (
+bx 9
+b101010 '
+b101010 :
+1#
+#20000
+0#
+#25000
+b1101 '
+b1101 :
+b1 /
+b1 8
+b0 .
+b0 7
+b0 0
+b0 ;
+b1000000 +
+b1000000 6
+b1 %
+b0 &
+b10 )
+b110111 1
+b110111 <
+12
+b101 5
+b100001 *
+b100001 4
+b101010 (
+b101010 9
+b100 -
+b100 3
+1#
+#30000
+0#
+#35000
+b110111 '
+b110111 :
+b0 /
+b0 8
+b11110000 +
+b11110000 6
+b0 %
+b100 )
+b110 5
+b1000000 *
+b1000000 4
+b0 1
+b0 <
+02
+b101 -
+b101 3
+b110111 (
+b110111 9
+1#
+#40000
+0#
+#45000
+b0 +
+b0 6
+b1111 )
+b111 5
+b11110000 *
+b11110000 4
+b110 -
+b110 3
+b110111 !
+b110111 ,
+1#
+#50000
+0#
+#55000
+1"
+1#
+#60000
+0#
+#65000
+1#
+#70000
+0#
+#75000
+1#
+#80000
+0#
+#85000
+1#
+#90000
+0#
+#95000
+1#
+#100000
+0#
+#105000
+1#
+#110000
+0#
