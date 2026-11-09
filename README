@@ -1,0 +1,36 @@
+# 8-Bit CPU Design in Verilog
+
+## Overview
+
+This project implements an 8-bit CPU designed and simulated using Verilog HDL. The processor integrates a register file, arithmetic logic unit (ALU), program counter, ROM, instruction decoder, and control logic to execute a custom instruction set.
+
+The goal of the project was to explore digital processor architecture, instruction execution, and hardware verification.
+
+## Architecture
+
+The CPU includes:
+
+- **8-bit ALU:** Performs arithmetic and logical operations.
+- **Register File:** Stores processor operands and intermediate results.
+- **Program Counter:** Tracks instruction execution.
+- **ROM:** Stores program instructions.
+- **Instruction Decoder:** Interprets instructions and selects operations.
+- **Control Logic:** Coordinates data movement and execution.
+
+## Simulation and Testing
+
+The processor was tested using Verilog testbenches and simulated with Icarus Verilog. GTKWave was used to inspect signal behavior and verify instruction execution.
+
+Testing included checking register updates, arithmetic operations, control signals, and successful program termination.
+
+## Technologies
+
+- Verilog HDL
+- Icarus Verilog
+- GTKWave
+- Digital Logic Design
+- CPU Architecture
+
+## Future Improvements
+
+Potential extensions include additional instructions, expanded memory support, and improvements to the processor datapath and control architecture.
